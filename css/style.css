@@ -1,0 +1,91 @@
+/* พื้นหลังทั้งหน้า */
+body.login-page {
+  font-family: 'Prompt', sans-serif;
+  background: url('../img/pizza-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* กล่องฟอร์ม */
+.login-box {
+  background: rgba(255, 248, 240, 0.95); /* โทนครีมอบอุ่น */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 320px;
+  text-align: center;
+}
+
+/* หัวข้อ */
+.login-box h2 {
+  color: #b22222; /* แดงเข้มเหมือนเตาอบ */
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* ฟอร์ม */
+.login-box label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* ปุ่ม */
+.login-box button {
+  background: #f4c542; /* เหลืองทองเหมือนชีส */
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-box button:hover {
+  background: #e67e22; /* ส้มเข้มเมื่อ hover */
+}
+
+/* ลิงก์สมัครสมาชิก */
+.login-box p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-box a {
+  color: #b22222;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #b22222; /* แดงเข้มเหมือนซอสมะเขือเทศ */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #8b0000; /* แดงเข้มขึ้นเมื่อ hover */
+}
