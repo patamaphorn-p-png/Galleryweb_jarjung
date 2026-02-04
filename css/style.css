@@ -102,24 +102,3 @@ button, .btn {
   transition: all 0.3s ease;
 }
 
-/* ปุ่มเข้าสู่ระบบ */
-.login-btn {
-  background: linear-gradient(135deg, #f4c542, #e69500); /* โทนเหลืองทองเหมือนชีส */
-  color: #fff;
-}
-
-.login-btn:hover {
-  background: linear-gradient(135deg, #e69500, #cc7a00);
-  transform: scale(1.05);
-}
-
-/* ปุ่มออกจากระบบ */
-.logout-btn {
-  background: linear-gradient(135deg, #b22222, #8b0000); /* โทนแดงเข้มเหมือนซอสมะเขือเทศ */
-  color: #fff;
-}
-
-.logout-btn:hover {
-  background: linear-gradient(135deg, #8b0000, #660000);
-  transform: scale(1.05);
-}
